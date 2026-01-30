@@ -1,6 +1,7 @@
-day_of_week = input("what day is it? ")
-if day_of_week == "Friday" or "friday":
-    print("correct")
+bill = int(input("pay me!"))
+if bill > 100:
+    print("WOAH")
+elif bill == 100:
+    print("yes yes money")
 else:
-    print("incorrect")
-
+    print("HEY IM ANGRY NOW")
