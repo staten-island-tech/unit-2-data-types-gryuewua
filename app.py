@@ -1,10 +1,12 @@
-number = int(input("choose a number"))
-if number%2 == 0:
-    print("even")
-else:
-    print("odd")
-x = "this is a thing"
-y= x.split( )
-z = y[0]
-print(y)
-print(z)
+number = int(input("give me a number"))
+x = 0
+factor = [1-number]
+
+for i in factor:
+    if number%(factor[x]) == 0:
+        print(factor[x])
+        x+1
+        i+1
+    else:
+        x+1
+        i+1
