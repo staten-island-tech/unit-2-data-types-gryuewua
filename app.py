@@ -1,12 +1,16 @@
-number = int(input("give me a number"))
-x = 0
-factor = [1-number]
-
-for i in factor:
-    if number%(factor[x]) == 0:
-        print(factor[x])
-        x+1
-        i+1
+'''def discount(age,isResident,isMember):
+    if (age < 12 or age >= 65) or ((isResident == True) or (isMember == True)):
+        print("Discount")
     else:
-        x+1
-        i+1
+        print("No discount")
+
+print(discount(12,False,False))'''
+
+number = int(input("input number"))
+x = 0 
+y = 1 
+factors = [1,y+1]
+
+if x in factors:
+    if number%(factors(x)):
+        x
