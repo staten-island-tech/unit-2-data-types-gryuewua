@@ -6,11 +6,16 @@
 
 print(discount(12,False,False))'''
 
-number = int(input("input number"))
-x = 0 
-y = 1 
-factors = [1,y+1]
+x = int(input("input number"))
 
-if x in factors:
-    if number%(factors(x)):
-        x
+y = int(input("input another number"))
+
+gcf = 0 
+
+for p in range(1,x+1):
+    if x%p == 0:
+        for i in range(1,y+1):
+            if y%i == 0:
+                if i == p :
+                    if i > gcf:
+                        print(gcf)
