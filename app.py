@@ -1,3 +1,8 @@
+#BILL
+
+bill = int(input("Pay"))
+service = (input("How was service?"))
+
 #DISCOUNT
 
 '''def discount(age,isResident,isMember):
