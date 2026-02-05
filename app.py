@@ -10,12 +10,16 @@ x = int(input("input number"))
 
 y = int(input("input another number"))
 
-gcf = 0 
+factors = []
 
 for p in range(1,x+1):
     if x%p == 0:
         for i in range(1,y+1):
             if y%i == 0:
                 if i == p :
-                    if i > gcf:
-                        print(gcf)
+                    factors.append(i)
+                    
+print(f"GCF is {max(factors)}")
+                    
+
+                    
