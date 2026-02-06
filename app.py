@@ -1,7 +1,16 @@
 #BILL
 
-bill = int(input("Pay"))
+'''bill = int(input("Pay"))
 service = (input("How was service?"))
+
+if service == "bad":
+    print(bill*1)
+if service == "okay":
+    print(bill*1.15)
+if service == "good":
+    print(bill*1.2)
+if service == "great":
+    print(bill*1.25)'''
 
 #DISCOUNT
 
