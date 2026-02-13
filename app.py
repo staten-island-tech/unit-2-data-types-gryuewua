@@ -24,7 +24,7 @@ print(discount(12,False,False))'''
 
 #GCF
 
-'''x = int(input("input number"))
+x = int(input("input number"))
 
 y = int(input("input another number"))
 
@@ -37,4 +37,4 @@ for p in range(1,x+1):
                 if i == p :
                     factors.append(i)
                     
-print(f"GCF is {max(factors)}")'''
+print(f"GCF is {max(factors)}")
